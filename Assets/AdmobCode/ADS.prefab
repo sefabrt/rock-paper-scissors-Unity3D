@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1512830532697958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4997310277132954}
+  - component: {fileID: 114313440084562894}
+  - component: {fileID: 114360579251979840}
+  - component: {fileID: 114019447928707980}
+  m_Layer: 0
+  m_Name: ADS
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: b67179a82d4d12d4ba98249981324bea, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4997310277132954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512830532697958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114313440084562894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512830532697958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f237509ce22022e418f731334e1e8c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114360579251979840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512830532697958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c37a4a3481503a46b34cd50ec46463f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OdulVer:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114019447928707980}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: ODULAL
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  AndroidID:
+    AppID: ca-app-pub-3592763501674070~8126342770
+    BannerID: 
+    RewardID: 
+    InterstitialID: ca-app-pub-3592763501674070/6673660307
+  IOSID:
+    AppID: ca-app-pub-3940256099942544~1458002511
+    BannerID: ca-app-pub-3940256099942544/2934735716
+    RewardID: ca-app-pub-3940256099942544/1712485313
+    InterstitialID: ca-app-pub-3940256099942544/4411468910
+--- !u!114 &114019447928707980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512830532697958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a563dcfa1264024ba1de1175d194531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interstitial: 1
+  RewardBasedVideo: 0
+  Banner: 0
+  BannerPostion: 0
