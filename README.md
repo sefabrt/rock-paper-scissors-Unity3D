@@ -3,3 +3,4 @@
 
 This game is designed for game jam.
 
+![ezgif com-crop (2)](https://user-images.githubusercontent.com/76405419/228988910-f1494c2a-4576-475f-b209-c5fbea875de6.gif)
